@@ -26,7 +26,7 @@ router.get('/foods/:foodid', (req, res) => {
     const result = sample_foods.find(item => item.id === foodid);
     res.send(result)
 })
-router.get('/menu/:tag', (req, res) => {
+router.get('/tag/:tag', (req, res) => {
     const { tag } = req.params ;
     const result = sample_foods.filter(item => item.category === tag)
     res.send(result)

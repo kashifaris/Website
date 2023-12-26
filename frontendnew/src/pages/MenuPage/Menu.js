@@ -102,7 +102,7 @@ export function Menu (){
     useEffect(() => {
         getRestaurant( name ).then(Restaurant => dispatch({type:'RESTAURANT_LOADED', payload: Restaurant}));
         getAllTags().then(TagsAll => dispatch({type: 'TAGS_LOADED', payload: TagsAll}));
-        getAllByTag(tag).then(MenuAll => dispatch({type:'MENU_LOADED', payload: MenuAll}))
+        getAllByTag( tag ).then(MenuAll => dispatch({type:'MENU_LOADED', payload: MenuAll}))
 
     },[name, tag]
     )
