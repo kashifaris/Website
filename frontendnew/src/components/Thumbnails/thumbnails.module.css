@@ -1,0 +1,113 @@
+.mainContainer{
+    padding: 8px ;
+}
+.title{
+    font-size: 18px;
+    padding: 8px;
+}
+.list{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    min-height: 90px;
+    max-width: 375px;
+    min-width: 300px;
+    flex-grow: calc();
+    border-radius: 5px;
+    border: 1px solid var(--neutral-light, #EBF0FF);
+    background: var(--background-white, #FFF);
+
+}
+.container:active, .container:hover{
+    border: 1px solid var(--neutral-light, #40BFFF);
+
+}
+.content{
+    max-width: 70%;
+    min-width: 70%;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.new{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagebox{
+    min-width: 30%;
+    max-width: 30%;
+
+}
+.image{
+    border-radius: 5px;
+
+    width: 100%;
+}
+.name{
+    color: var(--neutral-dark, #223263);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 18px */
+    letter-spacing: 0.5px;
+}
+.des{
+    color: var(--neutral-grey, #9098B1);
+    /* Caption/normal regular line */
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15px */
+    letter-spacing: 0.5px;
+    text-wrap: wrap;
+}
+.more{
+    display: flex;
+    font-size: 11px;
+    gap: 15px;
+}
+.rating{
+    /* color: 	rgb(71 184 42); */
+    /* #EBF0FF */
+    color: #FFC833;
+    background-color: rgb(238 238 238);
+    padding: 5px;
+    border-radius: 5px;
+}
+.cookTime{
+    /* color: 	rgb(97 97 97); */
+    color: #FB7181;
+    background-color: rgb(238 238 238);
+    padding: 5px;
+    border-radius: 5px;
+}
+.Order{
+    flex: 1;
+    font-size: 16px;
+    font-family: fonty;
+}
+.priceContainer{
+    flex:1;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--primary-blue, #40BFFF);
+}
+.startingat{
+    color: rgb(146 146 146);
+    font-size: 12px;
+}

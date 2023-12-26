@@ -1,0 +1,55 @@
+.container{
+ background-color: white;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.tags{
+    display: flex;
+    padding: 5px;
+    gap: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.link{
+  color: black;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.card {
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  background-color: white;
+  color: #40BFFF;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 100px;
+    max-height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .card:hover {
+    color: white;
+    background-color: #40BFFF
+  }
+  
+  .card:active{
+    color: white;
+    background-color: #40BFFF
+  }
+  
+  .image{
+    height: 60px;
+    width: 60px;
+  }
+  .content {
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+  }

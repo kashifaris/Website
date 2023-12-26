@@ -1,0 +1,50 @@
+.e{
+    padding:  10px 20px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.e_left{
+    width: 70%;
+}
+.e_right{
+    width: 30%;
+}
+.e_socials{
+    display: flex;
+    flex-direction: row;
+}
+.e_button{
+    font-family: Fonty;
+    align-self:flex-start;
+    padding-left: 0px;
+    border-style: none;
+    color: #CC3434;
+    background-color: #ffffff;
+}
+.e_contact{
+    padding: 5px;
+    margin-left: 10px;
+    word-wrap:break-word;
+    color: #CC3434;
+}
+.e_rightReserved{
+    text-align: center;
+}
+.e_right{
+    text-align: center;
+    color: black;
+    max-width: 150px;
+}
+.e_mainSite{
+    text-align: center;
+    color: black;
+}
+.e_mainSite:hover{
+    cursor: pointer;
+}
+.e_poweredby{
+    font-size: 14px;
+}
